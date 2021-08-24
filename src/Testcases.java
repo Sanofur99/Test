@@ -35,7 +35,7 @@ public class Testcases {
 	@Test
 	public void testAddEmployee()
 	{
-		int result=Calculator.addTrainee(111,"aaa");
+		int result=Calculator.addTrainee(111,"bbb");
 	    String oldName=Calculator.updateTrainee(111,"bbb");
 		assertEquals("aaa",oldName);
 		assertEquals(1,result);
